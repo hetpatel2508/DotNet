@@ -14,6 +14,8 @@ namespace testing
         {
             /*
             Data Types in C# 
+
+                byte -->  1 byte
                 int  -->  4 byte
                 long  -->  8 byte
                 
@@ -26,6 +28,7 @@ namespace testing
                 bool  -->  1 bit
             */
             
+             byte  byteType = 29;
              int  intType = 52;
             long  longType = 7984335588;
 
@@ -41,6 +44,7 @@ namespace testing
 
             if (boolType)
             {
+                Console.WriteLine("byte = "+byteType);
                 Console.WriteLine("int = "+intType);
                 Console.WriteLine("long = "+longType);
                 Console.WriteLine("float = "+floatType);
